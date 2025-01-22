@@ -1,21 +1,17 @@
 {
-  "name": "node-js",
+  "name": "js",
   "version": "1.0.0",
-  "description": "Cuaderno de Practicas Node.js",
-  "main": "1_os_system_info.js",
+  "main": "./Clase-dos/2_routing.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:1": "nodemon 1_http.js",
+    "dev:2": "nodemon 2_routing.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "picocolors": "1.1.1"
-  },
+  "description": "^c",
   "devDependencies": {
-    "standard": "17.1.2"
-  },
-  "eslintConfig": {
-    "extends": "standard"
+    "nodemon": "3.1.9"
   }
 }
