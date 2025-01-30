@@ -1,11 +1,11 @@
 {
   "name": "js",
   "version": "1.0.0",
-  "main": "./Clase-dos/2_routing.js",
+  "main": "./Clase-dos/1_http.js",
 
   "scripts": {
-    "dev:1": "nodemon 1_http.js",
-    "dev:2": "nodemon 2_routing.js"
+    "dev:1": "nodemon Clase-dos/1_http.js",
+    "dev:2": "nodemon Clase-dos/2_routing.js"
   },
   "keywords": [],
   "author": "",
