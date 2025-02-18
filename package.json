@@ -2,10 +2,10 @@
   "name": "js",
   "version": "1.0.0",
   "main": "./Clase-dos/1_http.js",
-
   "scripts": {
     "dev:1": "nodemon Clase-dos/1_http.js",
-    "dev:2": "nodemon Clase-dos/2_routing.js"
+    "dev:2": "nodemon Clase-dos/2_routing.js",
+    "dev:3": "node --watch Clase-dos/3_express.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
   "description": "^c",
   "devDependencies": {
     "nodemon": "3.1.9"
+  },
+  "dependencies": {
+    "express": "4.21.2"
   }
 }
